@@ -1,0 +1,29 @@
+<div>
+    <h1>Morphological Recognizer</h1>
+</div>
+<div class="row vertical-align">
+    <div class="col-xs-5">
+        <label for="describe">Lexicon</label>
+        <textarea class="form-control" id="describe" rows="10" ng-model="vm.lexicon"></textarea>
+        
+        <label for="describe">Morphotactics</label>
+        <textarea class="form-control" id="describe" rows="10" ng-model="vm.morphotactics"></textarea>
+        
+        <label for="describe">Input</label>
+        <textarea class="form-control" id="describe" rows="10" ng-model="vm.input"></textarea>
+    </div>
+    <div class="col-xs-2">
+        <button type="button" class="btn btn-primary center-block" ng-click="vm.run()">Run</button>
+    </div>
+    <div class="col-xs-5">
+        <label for="describe">Expanded Morphotactics</label>
+        <textarea class="form-control" id="describe" rows="15" ng-model="vm.expandedMorphotactics" readonly></textarea>
+        
+        <label for="describe">Output</label>
+        <textarea class="form-control" id="describe" rows="15" ng-model="vm.output" readonly></textarea>
+    </div>
+</div>
+<div>
+    <a class="btn btn-default" ng-href="#/" style="width:80px">
+        < Back </a>
+</div>

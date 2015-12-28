@@ -1,0 +1,20 @@
+<div>
+    <h1>English Tokenizer</h1>
+</div>
+<div class="row vertical-align">
+    <div class="col-xs-5">
+        <label for="describe">Input Text</label>
+        <textarea class="form-control" id="describe" rows="20" ng-model="vm.input"></textarea>
+    </div>
+    <div class="col-xs-2">
+        <button type="button" class="btn btn-primary center-block" ng-click="vm.tokenize()">Tokenize</button>
+    </div>
+    <div class="col-xs-5">
+        <label for="describe">Tokenized Text</label>
+        <textarea class="form-control" id="describe" rows="20" ng-model="vm.output" readonly></textarea>
+    </div>
+</div>
+<div>
+    <a class="btn btn-default" ng-href="#/" style="width:80px">
+        < Back </a>
+</div>
